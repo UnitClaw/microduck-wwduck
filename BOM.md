@@ -1,5 +1,7 @@
 # 整机物料清单（BOM）
 
+> 📖 对应电子书 **附录B：BOM 采购清单** · 在线阅读：<https://unitclaw.github.io/microduck-wwduck/> · 配件商城见 [PARTS.md](PARTS.md)
+
 > **实物打印件、材料与装配数量以 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad#装配-bom) 对应版本为准。** 本文的 MJCF 引用数和几何推算是上游分析，不是最新飞特打印清单。
 
 > **仓库里有四份清单加一份打印说明，各管各的：**

@@ -1,0 +1,18 @@
+[book]
+title = "MicroDuck: A Bipedal Robot with Feetech Servos (First Edition)"
+authors = ["WWNT Robotics"]
+description = "A full-stack engineering methodology for Sim2Real transfer in bipedal robots — from mechanics and electronics to reinforcement learning"
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/UnitClaw/microduck-wwduck"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/UnitClaw/microduck-wwduck/edit/master/book-en/src/{path}"
+additional-css = ["custom.css"]
+additional-js = ["custom.js"]

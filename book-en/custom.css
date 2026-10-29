@@ -1,0 +1,28 @@
+/* ===== Language switch (top-right menu bar) ===== */
+#menu-bar .right-buttons .lang-switch {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+#menu-bar .right-buttons .lang-switch i {
+  margin-right: 5px;
+}
+
+/* ===== Title overflow fixes ===== */
+/* mdbook renders the book title in the top menu bar at 2.4rem with
+   white-space:nowrap + ellipsis, which truncates long titles. Reduce it. */
+.menu-title {
+  font-size: 1.2rem;
+  line-height: var(--menu-bar-height);
+}
+
+/* Ensure content headings never overflow their container. */
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}

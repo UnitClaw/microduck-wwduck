@@ -1,0 +1,18 @@
+[book]
+title = "MicroDuck 国产飞特舵机版电子书（首版）"
+authors = ["UnitClaw"]
+description = "从机械、电控到强化学习 Sim2Real —— 国产双足机器鸭全栈工程实践"
+language = "zh"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/UnitClaw/microduck-wwduck"
+git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/UnitClaw/microduck-wwduck/edit/master/book/src/{path}"
+additional-css = ["custom.css"]
+additional-js = ["custom.js"]
