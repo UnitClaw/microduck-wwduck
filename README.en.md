@@ -5,7 +5,7 @@
 > A third-party reconstruction study of [Pollen Robotics' Microduck](https://pollen-robotics.com/microduck/).
 > Assembly drawings, exploded views, CAD-importable assemblies, and a complete electronics teardown — all derived from publicly released files and source code.
 >
-> Models & print files: [microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad)　·　Assembly videos: [Bilibili series](https://space.bilibili.com/312747174/lists/9279084?type=season)
+> Print files (Feetech · FrankenDuck): [print/frankenduck](print/frankenduck/)　·　Editable drawings: [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad)　·　Assembly videos: [Bilibili series](https://space.bilibili.com/312747174/lists/9279084?type=season)
 
 ---
 
@@ -32,7 +32,7 @@ This repository covers two servo choices. **Mechanics, electronics and software 
 | | Original · Dynamixel XL330 | Feetech · HD-1910 |
 |---|---|---|
 | Servos | XL330-M288-T ×15 | HD-1910-C001 ×15 — half the price, 2.5× the torque |
-| Printed parts | [CAD repository · XL330](https://github.com/UnitClaw/microduck-replica-cad) | [CAD repository · Feetech](https://github.com/UnitClaw/microduck-replica-cad); mating parts are not interchangeable |
+| Printed parts | [CAD repository · XL330](https://github.com/UnitClaw/microduck-wwduck-cad) | [FrankenDuck (this repo)](print/frankenduck/); mating parts are not interchangeable |
 | Electronics | Official HAT + [`imu_to_dxl`](hardware/imu_to_dxl/) | Same; servo connectors are 2.0 mm (official 2.5) |
 | Software | Official runtime runs as-is | Different bus protocol, swap the protocol module + retrain for HD-1910 |
 | Status | Paper analysis + first prints | Assembled and stood up (09-18), 14 joints read on the bus |
@@ -48,7 +48,7 @@ git clone https://github.com/UnitClaw/microduck-replica.git
 ```
 
 1. **Pick a track** — XL330 (original) or HD-1910 (Feetech, half the price)
-2. **Source parts** — servos, bearings and fasteners per [BOM.en.md](BOM.en.md); print files from the [CAD repository](https://github.com/UnitClaw/microduck-replica-cad)
+2. **Source parts** — servos, bearings and fasteners per [BOM.en.md](BOM.en.md); print files: [FrankenDuck](print/frankenduck/) for the Feetech track, the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad) for XL330
 3. **Watch the assembly videos** — [Bilibili series](https://space.bilibili.com/312747174/lists/9279084?type=season), one subassembly per episode
 4. **Flash the image and walk** — [replica image](https://github.com/UnitClaw/microduck-replica/releases/latest): flash → boot → join the hotspot → set up WiFi, no SSH at any point
 
@@ -62,6 +62,7 @@ microduck-replica/
 ├── build-log/           # Physical build log (photos)
 ├── docs/                # Reverse-engineering notes, selection, sourcing
 ├── hardware/            # imu_to_dxl board, HAT, new custom boards
+├── print/               # 3D print set (Feetech · FrankenDuck)
 ├── software/            # Studio web console, replica image, training
 ├── tools/               # Web servo console, Feetech tools, gait analysis
 ├── BOM.en.md            # Bill of materials (what to buy, how many)

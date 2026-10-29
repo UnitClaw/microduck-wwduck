@@ -1,21 +1,36 @@
-# 打印文件统一到 CAD 仓库下载
+# 打印文件 · 缝合怪版（FrankenDuck）
 
 **简体中文** · [English](README.en.md)
 
-**模型、结构件和打印工程统一维护在 [UnitClaw/microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad)。请从那里选择与你的舵机对应的版本。**
+**本仓库的 3D 打印件采用「缝合怪版」** —— 汇集多位社区制作者的优化与实机装配改动，由 [@kissqy](https://github.com/kissqy) 整理发布（原目录 [kissqy/Microduck-kissqy · hardware/3d-print-frankenduck](https://github.com/kissqy/Microduck-kissqy/tree/main/hardware/3d-print-frankenduck)），现由 WWNT Robotics 维护。
 
-| 使用的舵机 | 下载入口 |
+## 下载
+
+| 内容 | 下载 |
 |---|---|
-| 飞特 HD-1910 | [CAD 仓库 · 飞特版](https://github.com/UnitClaw/microduck-replica-cad#两个版本选一个下)；截至 2026-09-28 为 [v2.1](https://github.com/fanhao375/microduck-replica-cad/releases/tag/v2.1) |
-| Dynamixel XL330 | [CAD 仓库 · XL330 版](https://github.com/UnitClaw/microduck-replica-cad#两个版本选一个下)；截至 2026-09-28 为 [v1.1](https://github.com/fanhao375/microduck-replica-cad/releases/tag/v1.1) |
-| 材料、数量、装配步骤 | [CAD 仓库说明与装配 BOM](https://github.com/UnitClaw/microduck-replica-cad#装配-bom) |
+| **完整打印包**（36 个 STL + 1 个 3MF 摆盘，5 盘，14.5 MiB） | [⬇️ RAR](frankenduck/Microduck-Print-FrankenDuck-20261015.rar) |
+| 包内文件清单 | [FILES.md](frankenduck/FILES.md) |
+| SHA256 校验 | [SHA256SUMS](frankenduck/SHA256SUMS) |
+| 摆盘预览（5 盘） | [frankenduck/](frankenduck/) |
 
-**不要混用飞特和 XL330 的配合件。** 两种舵盘结构不同；本仓之前的 STL 来自上游 XL330 仿真模型，没有同步飞特改件。
+## 两种电池仓
 
-2026-09-28 已从本目录移除旧 STL，避免下载后直接误打。旧文件仍可在 Git 历史中追溯，但不再作为当前打印包提供；主仓不再维护第二份模型下载副本。
+文件在压缩包 `stl模型/躯体部分/` 下：
 
-截至本次核对，CAD 仓库的 **09-15 旧 3MF 尚未包含 v2.1 的 TPU 合体轮胎**。打印前以 CAD 仓库对应文件的版本说明为准，不要将旧 3MF 当成完整 v2.1；此差异只涉及轮滑变体。SolidWorks / STEP 包是 CAD 源文件，不是已经切片的打印文件。
+| 版本 | 文件 | 用途 |
+|---|---|---|
+| **夹 HUB 板版** | `电池仓_M2.5螺丝_HUB组合.stl` | 需要同时夹持 HUB 板时选择 |
+| **官方式加厚卡扣版** | `电池仓_卡扣加厚.stl` | 沿用官方式结构，加厚卡扣部分 |
 
-主仓 `software/training/` 和网页调试台中保留的网格用于仿真及显示，**不是打印来源**。本次调整没有把这些模型、质量或惯量同步为最新实物 CAD。
+## 打印要点
 
-图纸由 **机械行者Robo** 建模整理，依据上游模型采用 **CC BY-NC-SA 4.0**；作者、许可及后续版本以 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad) 为准。
+- **第 5 盘为 TPU**（`左脚底`、`右脚底`、`滑轮`），打印前切换为 TPU 材料配置
+- 滑轮使用 **623ZZ（3×10×4 mm）** 轴承，按选配另购
+- 参考摆盘：Bambu Lab P2S / 0.4 mm 喷嘴 / 0.20 mm Standard；按自己的机器调整
+- 硬质件为 PLA；软下巴、软嘴顶部等柔性件按 BOM 用 TPU
+
+## 与可编辑图纸的关系
+
+缝合怪版是**直接打印的 STL / 3MF**。如需二次设计、改尺寸，用可编辑的 SolidWorks 源文件，统一维护在 [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad)（飞特 HD-1910 / XL330 两版）。
+
+> 缝合怪版版权归原作者 kissqy 及社区贡献者所有，新增修改遵循其分项许可；转载与二次分发请保留署名。

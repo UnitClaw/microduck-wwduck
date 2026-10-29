@@ -1,19 +1,36 @@
-# Download print files from the CAD repository
+# Print Files · FrankenDuck Edition
 
-[简体中文](README.md) · **English**
+**English** | [简体中文](README.md)
 
-**Models, mechanical parts and printing projects are maintained in [UnitClaw/microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad). Select the version matching your servos there.**
+**This repository's 3D print set is the "FrankenDuck" edition** — combining optimizations from several community makers with changes made during real-world assembly and operation, curated and published by [@kissqy](https://github.com/kissqy) (original directory [kissqy/Microduck-kissqy · hardware/3d-print-frankenduck](https://github.com/kissqy/Microduck-kissqy/tree/main/hardware/3d-print-frankenduck)), now maintained by WWNT Robotics.
 
-| Servo | Download |
+## Download
+
+| Item | Download |
 |---|---|
-| Feetech HD-1910 | [CAD repository](https://github.com/UnitClaw/microduck-replica-cad); current checked release: [v2.1](https://github.com/fanhao375/microduck-replica-cad/releases/tag/v2.1), as of 2026-09-28 |
-| Dynamixel XL330 | [CAD repository](https://github.com/UnitClaw/microduck-replica-cad); current checked release: [v1.1](https://github.com/fanhao375/microduck-replica-cad/releases/tag/v1.1), as of 2026-09-28 |
-| Materials, quantities and assembly | [CAD documentation and BOM](https://github.com/UnitClaw/microduck-replica-cad#装配-bom) |
+| **Full print pack** (36 STL + 1 3MF plate project, 5 plates, 14.5 MiB) | [⬇️ RAR](frankenduck/Microduck-Print-FrankenDuck-20261015.rar) |
+| File list | [FILES.md](frankenduck/FILES.md) |
+| SHA256 checksums | [SHA256SUMS](frankenduck/SHA256SUMS) |
+| Plate previews (5 plates) | [frankenduck/](frankenduck/) |
 
-**Do not mix mating parts from the Feetech and XL330 versions.** The old STLs here came from the upstream XL330 simulation model and did not include the Feetech CAD changes. They were removed on 2026-09-28 to prevent incorrect prints; Git history retains them for reference. This repository no longer maintains a second download copy of those models.
+## Two battery holders
 
-At the time of this check, the CAD repository's **09-15 3MF does not include the v2.1 combined TPU wheel**. Check each file's version before printing; that change affects the roller variant. SolidWorks and STEP downloads are CAD sources, not sliced printer files.
+Files are under `stl模型/躯体部分/` inside the archive:
 
-Meshes retained in `software/training/` and the web servo console are for simulation/display, **not manufacturing**. Their geometry, mass and inertia have not been updated to match the latest physical CAD in this change.
+| Version | File | Use |
+|---|---|---|
+| **HUB-clamping** | `电池仓_M2.5螺丝_HUB组合.stl` | Choose when you also need to clamp the HUB board |
+| **Official-style, thicker latch** | `电池仓_卡扣加厚.stl` | Follows the official structure with a thicker latch |
 
-CAD modelling and documentation are by **机械行者Robo**, under **CC BY-NC-SA 4.0** as derivatives of the upstream models. See the CAD repository for attribution, licensing and later versions.
+## Print notes
+
+- **Plate 5 is TPU** (`左脚底`, `右脚底`, `滑轮`) — switch to a TPU material profile before slicing
+- Rollers use **623ZZ (3×10×4 mm)** bearings, purchased separately
+- Reference plates: Bambu Lab P2S / 0.4 mm nozzle / 0.20 mm Standard; adjust for your own machine
+- Rigid parts are PLA; flexible parts such as the soft jaw and soft mouth top are TPU per the BOM
+
+## Relation to the editable drawings
+
+FrankenDuck is **print-ready STL / 3MF**. For redesign or resizing, use the editable SolidWorks sources maintained in [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad) (Feetech HD-1910 / XL330 versions).
+
+> The FrankenDuck edition is the work of its original author kissqy and community contributors; their additions follow the project's per-component license. Preserve attribution when redistributing.

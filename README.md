@@ -4,7 +4,7 @@
 
 > 对 [Pollen Robotics Microduck](https://pollen-robotics.com/microduck/) 的第三方复刻研究 —— 从官方公开的 MJCF 仿真模型，反推出装配图、爆炸图与可导入 CAD 的装配体。
 >
-> 模型与打印文件：[microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad)　·　装配视频：[B 站合集《MicroDuck 从零安装教程》](https://space.bilibili.com/312747174/lists/9279084?type=season)
+> 打印件（飞特·缝合怪版）：[print/frankenduck](print/frankenduck/)　·　可编辑图纸：[microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad)　·　装配视频：[B 站合集《MicroDuck 从零安装教程》](https://space.bilibili.com/312747174/lists/9279084?type=season)
 
 ---
 
@@ -27,7 +27,7 @@ Microduck 是一只 **25 cm 高、737 g** 的双足机器鸭，15 颗舵机、�
 | | 原版 · Dynamixel XL330 | 飞特 · HD-1910 |
 |---|---|---|
 | 舵机 | XL330-M288-T ×15 | HD-1910-C001 ×15 —— 便宜一半、力矩 2.5 倍 |
-| 打印件 | [CAD 仓库 · XL330 版](https://github.com/UnitClaw/microduck-replica-cad#两个版本选一个下) | [CAD 仓库 · 飞特版](https://github.com/UnitClaw/microduck-replica-cad#两个版本选一个下)，舵盘配合件不能混用 |
+| 打印件 | [CAD 仓库 · XL330 版](https://github.com/UnitClaw/microduck-wwduck-cad#两个版本选一个下) | [缝合怪版（本仓）](print/frankenduck/)，舵盘配合件不能混用 |
 | 电路 | 官方 HAT + [`imu_to_dxl`](hardware/imu_to_dxl/) | 同左；舵机连接器 2.0 mm（官方 2.5） |
 | 软件 | 官方运行时直接跑 | 总线协议不同，要换协议模块 + 按 HD-1910 重训 |
 | 状态 | 纸上分析 + 首批打印件 | 已装机并站起（09-18），14 颗关节已读通 |
@@ -43,7 +43,7 @@ git clone https://github.com/UnitClaw/microduck-replica.git
 ```
 
 1. **选路线** —— XL330（官方原版）还是 HD-1910（飞特，便宜一半）
-2. **备料** —— 按 [BOM.md](BOM.md) 买舵机、轴承、紧固件，打印件到 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad) 下载
+2. **备料** —— 按 [BOM.md](BOM.md) 买舵机、轴承、紧固件；打印件：飞特路线用[缝合怪版](print/frankenduck/)，XL330 路线到 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) 下载
 3. **看视频装配** —— [B 站合集](https://space.bilibili.com/312747174/lists/9279084?type=season)，一集装一个部件
 4. **烧镜像走起来** —— [复刻镜像](https://github.com/UnitClaw/microduck-replica/releases/latest)，烧卡 → 开机 → 手机连热点配网，全程不用 SSH
 
@@ -57,6 +57,7 @@ microduck-replica/
 ├── build-log/           # 实物构建日志（照片）
 ├── docs/                # 逆向分析、选型、采购清单
 ├── hardware/            # imu_to_dxl 板、HAT、新版自制板
+├── print/               # 3D 打印件（飞特·缝合怪版）
 ├── software/            # Studio 网页中控、复刻镜像、训练工程
 ├── tools/               # 网页调试台、飞特工具、步态分析
 ├── BOM.md               # 物料清单（要买什么、买几个）
