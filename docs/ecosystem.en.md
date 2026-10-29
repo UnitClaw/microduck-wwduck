@@ -126,8 +126,8 @@ The community has a growing set of motion policies: `happy-hop`, `polite-bow`, `
 | If you want to… | Go to |
 |---|---|
 | Get a feel for it | The [official web simulator](https://huggingface.co/spaces/pollen-robotics/microduck-simulator) — open and play |
-| Models and assembly instructions | [CAD repository](https://github.com/UnitClaw/microduck-replica-cad); local renderings are upstream analysis references |
-| Print parts | [CAD repository](https://github.com/UnitClaw/microduck-replica-cad); [version notes](../print/README.en.md) |
+| Models and assembly instructions | [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad); local renderings are upstream analysis references |
+| Print parts | Feetech: [FrankenDuck edition](../print/frankenduck/); XL330 / editable drawings in the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad); [version notes](../print/README.en.md) |
 | Understand the electronics | [`docs/hardware-teardown.en.md`](hardware-teardown.en.md) here |
 | Build the HAT board | `production/` in [`elec_RPI_Robot_HAT`](https://github.com/pollen-robotics/elec_RPI_Robot_HAT) — install `lib_KiCAD` first |
 | Train your own policy | [`microduck_rl`](https://github.com/pollen-robotics/microduck_rl); no NVIDIA GPU? use [microduck-lab](https://github.com/jonathanhawkins/microduck-lab) |

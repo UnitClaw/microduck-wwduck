@@ -5,7 +5,7 @@
 **历史进度基准**：2026-09-03（硬件开源状态勘误：HAT 板官方已开源）
 **仓库**：https://github.com/UnitClaw/microduck-replica （公开）
 
-> **模型入口更新（2026-09-28）**：结构件、CAD 与打印工程统一到 [microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad) 下载。主仓旧 `print/`、`cad/` STL 已移除，目录只保留入口说明。下文分析批次与数量是历史记录；最新实物进度见 [构建日志](构建日志.md)，版本核对见 [CAD 记录](docs/CAD结构件版本核对-20260928.md)。
+> **模型入口更新（2026-09-28）**：结构件、CAD 与打印工程统一到 [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad) 下载。主仓旧 `print/`、`cad/` STL 已移除，目录只保留入口说明；后续 `print/` 重新承载飞特[缝合怪版打印件](print/README.md)。下文分析批次与数量是历史记录；最新实物进度见 [构建日志](构建日志.md)，版本核对见 [CAD 记录](docs/CAD结构件版本核对-20260928.md)。
 
 ---
 

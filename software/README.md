@@ -1,6 +1,6 @@
 # software · 软件
 
-> 本目录保留训练所需的上游仿真模型，**不是最新实物结构件的打印来源**。模型下载统一到 [microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad)；引入飞特舵机参数不等于已更新 CAD 几何、质量和惯量。
+> 本目录保留训练所需的上游仿真模型，**不是最新实物结构件的打印来源**（飞特打印件见本仓[缝合怪版](../print/README.md)）。模型下载统一到 [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad)；引入飞特舵机参数不等于已更新 CAD 几何、质量和惯量。
 
 官方运行时 [`pollen-robotics/microduck`](https://github.com/pollen-robotics/microduck) 是照 Dynamixel XL330 写的，本仓库主线用飞特 HD-1910，所以主程序要改。
 

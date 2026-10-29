@@ -2,7 +2,7 @@
 
 > 📖 对应电子书 **附录B：BOM 采购清单** · 在线阅读：<https://unitclaw.github.io/microduck-wwduck/> · 配件商城见 [PARTS.md](PARTS.md)
 
-> **实物打印件、材料与装配数量以 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad#装配-bom) 对应版本为准。** 本文的 MJCF 引用数和几何推算是上游分析，不是最新飞特打印清单。
+> **实物打印件：飞特 HD-1910 路线用本仓[缝合怪版](print/frankenduck/)（36 STL + 3MF 摆盘）；XL330 路线及可编辑 SolidWorks 以 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom) 对应版本为准。** 本文的 MJCF 引用数和几何推算是上游分析，不是最新打印清单。
 
 > **仓库里有四份清单加一份打印说明，各管各的：**
 >
@@ -12,9 +12,9 @@
 > | [电控采购清单](docs/电控采购清单.md) | 电控件**买哪家**：主控 / 摄像头 / ToF / 电源 / 两块 PCB / 线材，淘宝实链 + 避坑 | 数量依据、机械件 |
 > | [机械采购清单](docs/机械采购清单.md) | 机械件**买哪家**：轴承 / 紧固件 / 耗材，淘宝实链 | 电控件 |
 > | [硬件规格速查](docs/硬件规格速查.md) | **参数**：接口、电压、协议、软件侧必须对齐的值 | 价格和店铺 |
-> | [print/README](print/README.md) | **打印入口**：在 CAD 仓库选择版本、材料和数量 | 采购 |
+> | [print/README](print/README.md) | **打印入口**：飞特用本仓缝合怪版，XL330 / 可编辑图纸在 CAD 仓库 | 采购 |
 >
-> 装配用的件号与螺丝对应在 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad#装配-bom)。
+> 装配用的件号与螺丝对应在 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom)。
 
 
 **简体中文** · [English](BOM.en.md)
@@ -320,7 +320,7 @@ DNP 的原始理由本身成立：HSI16 最坏 −1.85%/+1.55%，1 Mbps UART 容
 
 → 推断原版板：**两个安装点间距 34 mm、长边 ≤ 54 mm、外形是弧的**。
 
-> 💡 **但锁扣本身是打印件**（最新文件与数量见 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad)）—— 所以**板框和锁扣可以一起重新设计**，
+> 💡 **但锁扣本身是打印件**（最新文件与数量见 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad)）—— 所以**板框和锁扣可以一起重新设计**，
 > 不必迁就原版的弧。原版做成弧大概是为了贴合躯干内壁省空间；自己复刻用**直板 + 改锁扣**
 > 简单得多，弧形 PCB 布线和拼板都麻烦。
 
@@ -426,9 +426,9 @@ DNP 的原始理由本身成立：HSI16 最坏 −1.85%/+1.55%，1 Mbps UART 容
 
 ### 打印件与轮滑变体
 
-**模型、数量、材料和装配说明统一查看 [CAD 仓库](https://github.com/UnitClaw/microduck-replica-cad#装配-bom)。** 先选飞特 HD-1910 或 XL330，再核对具体附件版本。本仓不再提供第二份打印 STL，也不再把上游 MJCF 的重复网格数量当成实际打印数量。
+**飞特 HD-1910 路线的打印件用本仓[缝合怪版](print/frankenduck/)（36 STL + 3MF 摆盘）；XL330 路线及可编辑 SolidWorks 统一查看 [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom)。** 先选舵机版本，再核对具体附件版本。本仓不再把上游 MJCF 的重复网格数量当成实际打印数量。
 
-飞特 v2.1 已把轮滑变体的独立轮辋与轮胎改为 TPU 合体轮胎；09-15 旧 3MF 尚未同步此项。详见 [打印入口与版本提示](print/README.md)。走路用件和轮滑替换件也不能混用。
+缝合怪版第 5 盘为 TPU（滑轮、左右脚底），滑轮配 623ZZ 轴承、可替换脚掌；走路件与轮滑替换件不能混用。详见 [打印入口与版本提示](print/README.md)。
 
 ---
 

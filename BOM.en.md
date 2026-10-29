@@ -1,6 +1,6 @@
 # Bill of Materials
 
-> **Use the [CAD repository](https://github.com/UnitClaw/microduck-replica-cad#装配-bom) for physical print files, materials and quantities.** MJCF reference counts and geometry estimates here describe the upstream model, not the latest Feetech print BOM.
+> **Physical print files: the Feetech HD-1910 route uses this repo's [FrankenDuck edition](print/frankenduck/) (36 STL + 3MF plates); the XL330 route and editable SolidWorks use the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom).** MJCF reference counts and geometry estimates here describe the upstream model, not the latest print BOM.
 
 > ⚠️ **This English version lags behind the Chinese original.** Several corrections (camera rotation, MK1 part number, U10 placement, STS3032 torque basis, board SKU) were applied to the Chinese docs first. **When the two disagree, the Chinese version wins.** Last sync: 2026-09-05.
 
@@ -204,9 +204,9 @@ Derivation: [fastener reconstruction](docs/fastener-reconstruction.en.md).
 
 ### Printed parts and the roller variant
 
-**Models, quantities, materials and assembly instructions are maintained in the [CAD repository](https://github.com/UnitClaw/microduck-replica-cad#装配-bom).** Select Feetech HD-1910 or XL330, then check the attachment version. This repository no longer publishes a second STL set or presents upstream mesh-reference counts as a current print BOM.
+**The Feetech HD-1910 route prints from this repo's [FrankenDuck edition](print/frankenduck/) (36 STL + 3MF plates); the XL330 route and editable SolidWorks are maintained in the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad#装配-bom).** Select the servo version first, then check the attachment version. This repository no longer presents upstream mesh-reference counts as a current print BOM.
 
-Feetech v2.1 replaces the separate roller rim and tire with a combined TPU wheel; the older 09-15 3MF does not include it. See [printing and version notes](print/README.en.md). Walking parts and roller replacements are not interchangeable.
+FrankenDuck plate 5 is TPU (rollers, left/right soles); the rollers use 623ZZ bearings with replaceable feet. Walking parts and roller replacements are not interchangeable. See [printing and version notes](print/README.en.md).
 
 ---
 

@@ -1,6 +1,6 @@
 # servo-web · 飞特舵机网页调试台
 
-> 页面里的 3D 模型用于调试显示，仍基于上游仿真几何，**不能导出后当最新飞特打印件使用**。结构件与装配模型统一从 [microduck-replica-cad](https://github.com/UnitClaw/microduck-replica-cad) 获取。
+> 页面里的 3D 模型用于调试显示，仍基于上游仿真几何，**不能导出后当最新飞特打印件使用**（飞特打印件见本仓[缝合怪版](../../print/README.md)）。结构件与装配模型统一从 [microduck-wwduck-cad](https://github.com/UnitClaw/microduck-wwduck-cad) 获取。
 
 接上串口，浏览器里拖滑块让舵机动，3D 鸭子跟着转。给装机、校零、台架验收用，也是[飞特适配架构](../../software/飞特适配架构.md)台架清单 0–8 项的工具。
 

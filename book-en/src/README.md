@@ -37,7 +37,7 @@ Each chapter maps to concrete engineering resources in the repository; click to 
 |---|---|
 | Parts Store | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [Official Store](https://www.wwntai.com/parts.html) |
 | Minimal Simulation Demo | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
-| CAD Model Analysis | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD repo](https://github.com/UnitClaw/microduck-replica-cad) |
+| CAD Model Analysis | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD repo](https://github.com/UnitClaw/microduck-wwduck-cad) |
 | Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-wwduck/tree/master/scripts) |
 | 3D Printing & Assembly | [print/](https://github.com/UnitClaw/microduck-wwduck/tree/master/print) · [BOM.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/BOM.md) |
 | Hardware Circuits & Bus | [hardware/](https://github.com/UnitClaw/microduck-wwduck/tree/master/hardware) |
