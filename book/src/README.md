@@ -35,7 +35,7 @@
 
 | 电子书章节 | 仓库对应资源 |
 |---|---|
-| 配件商城 | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [官网商城](https://www.wwntai.com/parts.html) |
+| 配件商城 | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [商城](https://shop.wwntai.com) |
 | 最小仿真 Demo | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
 | CAD 模型解析 | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD 仓库](https://github.com/UnitClaw/microduck-wwduck-cad) |
 | Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-wwduck/tree/master/scripts) |
@@ -130,12 +130,12 @@
 
 <div style="display:inline-block; padding: 1rem 1.5rem 1.1rem; border:1px solid #e6e8eb; border-radius: 12px; background:#fafbfc;">
   <img src="assets/wechat-group-2.png" alt="微信交流群二维码" width="132" style="display:block; margin:0 auto; border-radius:6px;">
-  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">小鸭子的配件（主板，舵机群 2）<br>扫码入群 · 有效期至 2026-10-31</div>
+  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">Microduck 商城 2 群<br>扫码入群 · 有效期至 2026-11-09</div>
 </div>
 
 欢迎加入微信交流群，与社区一起交流复刻经验、反馈勘误、共建国产低成本双足机器人开源生态。
 
-> ⚠️ 微信群二维码 7 天自动失效（本图有效期至 **2026-10-31**）。过期后请访问官网 <https://www.wwntai.com/parts.html> 获取最新二维码，或在 GitHub 仓库提 issue 更新。
+> ⚠️ 微信群二维码 7 天自动失效（本图有效期至 **2026-11-09**）。过期后请访问官网 <https://shop.wwntai.com> 获取最新二维码，或在 GitHub 仓库提 issue 更新。
 
 ## 开源许可边界（务必阅读）
 

@@ -35,7 +35,7 @@ Each chapter maps to concrete engineering resources in the repository; click to 
 
 | Book Chapter | Corresponding Repository Resource |
 |---|---|
-| Parts Store | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [Official Store](https://www.wwntai.com/parts.html) |
+| Parts Store | [PARTS.md](https://github.com/UnitClaw/microduck-wwduck/blob/master/PARTS.md) · [Official Store](https://shop.wwntai.com) |
 | Minimal Simulation Demo | [software/training/](https://github.com/UnitClaw/microduck-wwduck/tree/master/software/training) |
 | CAD Model Analysis | [cad/](https://github.com/UnitClaw/microduck-wwduck/tree/master/cad) · [CAD repo](https://github.com/UnitClaw/microduck-wwduck-cad) |
 | Onshape → MJCF | [scripts/](https://github.com/UnitClaw/microduck-wwduck/tree/master/scripts) |
@@ -131,12 +131,12 @@ This book is neither a purely theoretical reinforcement-learning textbook nor a 
 
 <div style="display:inline-block; padding: 1rem 1.5rem 1.1rem; border:1px solid #e6e8eb; border-radius: 12px; background:#fafbfc;">
   <img src="assets/wechat-group-2.png" alt="WeChat community group QR code" width="132" style="display:block; margin:0 auto; border-radius:6px;">
-  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">MicroDuck Parts (Mainboard, Servo Group 2)<br>Scan to join · valid until 2026-10-31</div>
+  <div style="font-size:0.8rem; color:#6a7078; margin-top:0.6rem; line-height:1.6;">MicroDuck Store Group 2<br>Scan to join · valid until 2026-11-09</div>
 </div>
 
 Join our WeChat community to share replication experience, report corrections, and help build the domestic open-source ecosystem for low-cost bipedal robots.
 
-> ⚠️ The WeChat group QR code expires automatically after 7 days (this image is valid until **2026-10-31**). After expiry, visit <https://www.wwntai.com/parts.html> for the latest QR code, or open a GitHub issue to update it.
+> ⚠️ The WeChat group QR code expires automatically after 7 days (this image is valid until **2026-11-09**). After expiry, visit <https://shop.wwntai.com> for the latest QR code, or open a GitHub issue to update it.
 
 ## Open-Source Licensing Boundaries (Please Read)
 

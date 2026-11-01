@@ -1,6 +1,6 @@
 # Parts Store and Procurement Guide
 
-> This chapter is synchronized with the official parts store: <https://www.wwntai.com/parts.html>
+> This chapter is synchronized with the official parts store: <https://shop.wwntai.com>
 > Prices and stock are subject to the official site in real time; the product images below are all from the official store.
 >
 > Source your parts before replicating MicroDuck: this chapter brings the store's components and accessories (servos, mainboards, batteries, cameras, etc.) into the book with images and descriptions, so readers can one-stop procure against the BOM.
@@ -25,7 +25,7 @@
 | Camera | MIPI CSI (22-pin) |
 | Dimensions | 65 × 30 mm · Debian/Ubuntu |
 
-**¥385** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=Radxa%20ZERO%203W%20%E4%B8%BB%E6%9D%BF&price=385)
+**¥385** · [Buy now](https://shop.wwntai.com)
 
 ### Radxa Camera 8M 219
 
@@ -43,7 +43,7 @@ Sony IMX219 · 8 megapixels. A high-resolution camera module whose stock FPC cab
 | Cable | 150 mm (22-pin, 0.5 mm) |
 | Applications | face recognition · license-plate recognition · lane-line recognition |
 
-**¥180** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=Radxa%20Camera%208M%20219%20%E6%91%84%E5%83%8F%E5%A4%B4&price=180)
+**¥180** · [Buy now](https://shop.wwntai.com)
 
 ### Radxa ZERO 3E PoE HAT
 
@@ -60,7 +60,7 @@ IEEE 802.3af/at. A Power-over-Ethernet expansion board that delivers power and n
 | Accessories | standoffs ×4 + screws ×8 |
 | Note | requires a PoE switch/router |
 
-**¥118** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=Radxa%20ZERO%203E%20PoE%20HAT&price=118)
+**¥118** · [Buy now](https://shop.wwntai.com)
 
 ### HD-1910-C001 Serial-Bus Servo, 15-Pack
 
@@ -68,7 +68,7 @@ IEEE 802.3af/at. A Power-over-Ethernet expansion board that delivers power and n
 
 FEETECH coreless serial-bus servo, dedicated for open-source AI, suited to the joints of MicroDuck and other biomimetic robots. 12 kg·cm stall torque at 6 V, 12-bit magnetic-encoder 360° position feedback, TTL bus daisy-chaining (see Introduction: Pollen MicroDuck and Open-Source Embodied Intelligence, Servo and IMU Calibration, and BAM Actuator Modeling and Identification for details).
 
-**¥1380** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=HD-1910-C001%20%E4%B8%B2%E5%8F%A3%E6%80%BB%E7%BA%BF%E8%88%B5%E6%9C%BA%2015%20%E4%B8%AA%E5%A5%97%E8%A3%85&price=1380)
+**¥1380** · [Buy now](https://shop.wwntai.com)
 
 ### FE-URT2-C001 Debug Board + Cables
 
@@ -76,7 +76,7 @@ FEETECH coreless serial-bus servo, dedicated for open-source AI, suited to the j
 
 Feetech USB-to-TTL/485 bus debug board (Type-C · 2.54 mm header), with an AMP2.0 dual-ended adapter cable, for servo ID configuration and bus debugging.
 
-**¥49.5** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=FE-URT2-C001%20%E8%B0%83%E8%AF%95%E6%9D%BF%20%2B%20%E7%BA%BF%E6%9D%90&price=49.5)
+**¥49.5** · [Buy now](https://shop.wwntai.com)
 
 ### VL53L8CX ToF Module
 
@@ -84,7 +84,7 @@ Feetech USB-to-TTL/485 bus debug board (Type-C · 2.54 mm header), with an AMP2.
 
 ST 8×8 multi-zone Time-of-Flight ranging sensor: 64-zone simultaneous detection, 65° field of view, range up to 400 cm, enabling obstacle avoidance, gesture recognition, and depth sensing.
 
-**¥54.9** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=VL53L8CX%20ToF%20%E6%A8%A1%E5%9D%97&price=54.9)
+**¥54.9** · [Buy now](https://shop.wwntai.com)
 
 ### Viltrox NP-F550 Battery Pack
 
@@ -92,7 +92,7 @@ ST 8×8 multi-zone Time-of-Flight ranging sensor: 64-zone simultaneous detection
 
 VILTROX NP-F550 lithium battery: 2200 mAh / 7.4 V, USB-C direct charging in ~2 hours, 4-segment LED charge indicator, dimensions 70.7×38.5×25 mm, ~110 g, hot-swappable.
 
-**¥49** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=%E5%94%AF%E5%8D%93%E4%BB%95NP-F550%20%E7%94%B5%E6%B1%A0%E7%BB%84&price=49)
+**¥49** · [Buy now](https://shop.wwntai.com)
 
 ### Speaker Module
 
@@ -100,7 +100,7 @@ VILTROX NP-F550 lithium battery: 2200 mAh / 7.4 V, USB-C direct charging in ~2 h
 
 A speaker module that lets the robot duck "speak," supporting voice feedback and alert tones.
 
-**¥5.9** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=%E6%89%AC%E5%A3%B0%E5%99%A8%E6%A8%A1%E7%BB%84&price=5.9)
+**¥5.9** · [Buy now](https://shop.wwntai.com)
 
 ### EZVIZ 64 GB High-Speed TF Card for Surveillance
 
@@ -108,7 +108,7 @@ A speaker module that lets the robot duck "speak," supporting voice feedback and
 
 EZVIZ 64 GB memory card, a high-speed card dedicated to surveillance and video recording, with 90 MB/s read speed.
 
-**¥60** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=%E8%90%A4%E7%9F%B3%2064G%20%E7%9B%91%E6%8E%A7%E4%B8%93%E7%94%A8%E9%AB%98%E9%80%9F%20TF%20%E5%8D%A1&price=60)
+**¥60** · [Buy now](https://shop.wwntai.com)
 
 ### Standard Hardware Kit (bearings · screws · threadlocker · anti-slip pads)
 
@@ -125,13 +125,13 @@ EZVIZ 64 GB memory card, a high-speed card dedicated to surveillance and video r
 | Loctite threadlocker 243 | ×1 |
 | Sole anti-slip pads | ×1 |
 
-**¥99** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=%E6%A0%87%E5%87%86%E4%BB%B6%E5%A5%97%E8%A3%85%EF%BC%88%E8%BD%B4%E6%89%BF%20%C2%B7%20%E8%9E%BA%E4%B8%9D%20%C2%B7%20%E8%9E%BA%E7%BA%B9%E8%83%B6%20%C2%B7%20%E9%98%B2%E6%BB%91%E5%9E%AB%EF%BC%89&price=99)
+**¥99** · [Buy now](https://shop.wwntai.com)
 
 ### Full-Assembly Service
 
 A one-stop service for kit assembly + first-run debugging. Professional engineers assemble, flash, and verify the first run, so the robot works out of the box — ideal for users who want peace of mind.
 
-**¥699** · [Buy now](https://www.wwntai.com/microduck-shop.html?item=%E4%BB%A3%E8%A3%85%E6%95%B4%E6%9C%BA%E6%9C%8D%E5%8A%A1&price=699)
+**¥699** · [Buy now](https://shop.wwntai.com)
 
 ## 19.2 MicroDuck Domestic-Edition Parts (Coming Soon)
 
@@ -189,13 +189,13 @@ A Bluetooth controller, playable with zero code. Connect and remotely drive the 
 
 ### Join the Parts Community Group (ordering / Q&A)
 
-![MicroDuck Parts (Mainboard, Servo Group 2) WeChat group QR code](assets/wechat-group-2.png)
+![MicroDuck Store Group 2 WeChat group QR code](assets/wechat-group-2.png)
 
-**MicroDuck Parts (Mainboard, Servo Group 2)** · Order at: <https://wwntai.com>
+**MicroDuck Store Group 2** · Order at: <https://shop.wwntai.com>
 
 Scan with WeChat or WeCom to join.
 
-> ⚠️ The WeChat group QR code expires automatically after 7 days (this image is valid until **2026-10-31**). After expiry, visit <https://www.wwntai.com/parts.html> for the latest QR code, or open a GitHub issue to update it.
+> ⚠️ The WeChat group QR code expires automatically after 7 days (this image is valid until **2026-11-09**). After expiry, visit <https://shop.wwntai.com> for the latest QR code, or open a GitHub issue to update it.
 
 ## 19.5 A Note from the Founder
 

@@ -3,7 +3,7 @@
 **English** · [简体中文](README.md)
 
 > 📖 **Read the online book** (19-chapter full-stack engineering book, Ch.19 = Parts Store) → [unitclaw.github.io/microduck-wwduck](https://unitclaw.github.io/microduck-wwduck/)
-> 🛒 **Parts Store** (parts & accessories · illustrated list) → [wwntai.com/parts.html](https://www.wwntai.com/parts.html) ｜ in-repo list: [PARTS.md](PARTS.md)
+> 🛒 **Parts Store** (parts & accessories · illustrated list) → [shop.wwntai.com](https://shop.wwntai.com) ｜ in-repo list: [PARTS.md](PARTS.md)
 
 > A third-party reconstruction study of [Pollen Robotics' Microduck](https://pollen-robotics.com/microduck/).
 > Assembly drawings, exploded views, CAD-importable assemblies, and a complete electronics teardown — all derived from publicly released files and source code.
@@ -51,7 +51,7 @@ git clone https://github.com/UnitClaw/microduck-replica.git
 ```
 
 1. **Pick a track** — XL330 (original) or HD-1910 (Feetech, half the price)
-2. **Source parts** — servos, bearings and fasteners per [BOM.en.md](BOM.en.md); print files: [FrankenDuck](print/frankenduck/) for the Feetech track, the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad) for XL330; servos, mainboard and batteries are available at the [Parts Store](https://www.wwntai.com/parts.html) (full list in [PARTS.md](PARTS.md))
+2. **Source parts** — servos, bearings and fasteners per [BOM.en.md](BOM.en.md); print files: [FrankenDuck](print/frankenduck/) for the Feetech track, the [CAD repository](https://github.com/UnitClaw/microduck-wwduck-cad) for XL330; servos, mainboard and batteries are available at the [Parts Store](https://shop.wwntai.com) (full list in [PARTS.md](PARTS.md))
 3. **Watch the assembly videos** — [Bilibili series](https://space.bilibili.com/312747174/lists/9279084?type=season), one subassembly per episode
 4. **Flash the image and walk** — [replica image](https://github.com/UnitClaw/microduck-replica/releases/latest): flash → boot → join the hotspot → set up WiFi, no SSH at any point
 
@@ -280,16 +280,16 @@ See [NOTICE.md](NOTICE.md). Not affiliated with or endorsed by Pollen Robotics.
 <tr>
 <td align="center"><a href="https://www.wwntai.com"><b>Website</b></a><br><sub>www.wwntai.com</sub></td>
 <td align="center"><a href="https://wwnt.ai"><b>International</b></a><br><sub>wwnt.ai</sub></td>
-<td align="center"><a href="https://www.wwntai.com/parts.html"><b>Parts Store</b></a><br><sub>wwntai.com/parts.html</sub></td>
+<td align="center"><a href="https://shop.wwntai.com"><b>Parts Store</b></a><br><sub>shop.wwntai.com</sub></td>
 <td align="center"><a href="mailto:Support@wwntai.com"><b>Email</b></a><br><sub>Support@wwntai.com</sub></td>
 </tr>
 </table>
 
 <div align="center">
-  <img src="assets/wechat-group-2.png" alt="MicroDuck Parts (Mainboard & Servo) Group 2 WeChat QR code" width="280">
+  <img src="assets/wechat-group-2.png" alt="MicroDuck Store Group 2 WeChat QR code" width="280">
   <br>
-  <sub><b>MicroDuck Parts (Mainboard & Servo) Group 2 · order at wwntai.com · expires 2026-10-31</b><br>
-  Parts store: <a href="https://www.wwntai.com/parts.html">www.wwntai.com/parts.html</a> · full list: <a href="PARTS.md">PARTS.md</a><br>
+  <sub><b>MicroDuck Store Group 2 · order at shop.wwntai.com · expires 2026-11-09</b><br>
+  Parts store: <a href="https://shop.wwntai.com">shop.wwntai.com</a> · full list: <a href="PARTS.md">PARTS.md</a><br>
   WeChat group codes are valid for 7 days; if expired, visit the website for the latest, or open an <a href="https://github.com/UnitClaw/microduck-replica/issues">issue</a> and I will post a fresh one</sub>
 </div>
 
